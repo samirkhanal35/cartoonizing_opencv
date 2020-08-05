@@ -49,7 +49,7 @@ def working_design():
     img_selection_btn.place(x=520, y=100)
     #*--------------------------------
     # #sketching button
-    img_sketching_btn = tk.Button(window, text="Sketch", fg="black", font=("none Bold",20) , command=sketching)
+    img_sketching_btn = tk.Button(window, text="Cartoonize", fg="black", font=("none Bold",20) , command=sketching)
     img_sketching_btn.place(x=520, y=150)
 
 
